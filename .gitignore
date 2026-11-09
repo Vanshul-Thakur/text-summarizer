@@ -1,0 +1,64 @@
+# ==================================
+# Python / FastAPI Backend
+# ==================================
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==================================
+# React / Vite Frontend
+# ==================================
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# ==================================
+# Environment Variables / Secrets
+# ==================================
+
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# ==================================
+# macOS
+# ==================================
+
+.DS_Store
+.AppleDouble
+
+# ==================================
+# IDE / Editor
+# ==================================
+
+.vscode/
+.idea/
+
+# ==================================
+# Logs / Temporary Files
+# ==================================
+
+*.log
+*.tmp
+*.swp
+npm-debug.log*
